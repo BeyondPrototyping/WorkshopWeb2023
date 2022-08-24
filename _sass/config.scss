@@ -1,0 +1,32 @@
+$white: #ffffff;
+
+$light:      #f1f1f1;
+$dark:       #001d3b;
+$primary:    #2d3748;
+$secondary:  #6c757d;
+$info:       #0d6efd;
+$success:    #13a85f;
+$warning:    #e5cb13;
+$danger:     #f51207;
+
+/*
+$theme-colors: (
+    "light":      #f1f1f1,
+    "dark":       #001d3b,
+    "primary":    #2d3748,
+    "secondary":  #6c757d,
+    "info":       #0d6efd,
+    "success":    #13a85f,
+    "warning":    #e5cb13,
+    "danger":     #f51207,
+);
+*/
+
+$body-bg: $light; //map-get($map: $theme-colors, $key: "light");
+
+$nav-pills-link-active-bg: $secondary; //map-get($map: $theme-colors, $key: "secondary");
+$nav-pills-link-hover-bg: $secondary; //map-get($map: $theme-colors, $key: "secondary");
+
+//map-get($map: $theme-colors, $key: "light");
+
+//$font-size-base: 1.05rem;

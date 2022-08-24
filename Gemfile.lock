@@ -258,6 +258,8 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (~> 227)
+  jekyll-seo-tag
+  jekyll-sitemap
   wdm (>= 0.1.1)
   webrick (~> 1.7)
 

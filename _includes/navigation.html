@@ -1,0 +1,20 @@
+<!-- Navigation header -->
+<header>
+	<nav id="navbar-header" class="navbar navbar-expand-lg navbar-dark bg-primary px-3 fixed-top header">
+		<a class="navbar-brand text-uppercase fw-bold text-light fs-6" href="/">{{ site.data.content.title }}</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarScroll">
+			<ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll nav-pills" style="--bs-scroll-height: 200px">
+				{% for item in site.data.navigation %}
+				<li class="nav-item">
+					<a class="nav-link fw-semibold text-light text-uppercase" aria-current="page" href="/#{{ item.link }}">{{ item.name }}</a>
+				</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</nav>
+</header>
+
+

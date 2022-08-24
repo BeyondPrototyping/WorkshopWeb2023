@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="container mt-4">
+	<div class="card mb-3">
+		<div class="row g-0">
+			<div class="col-md-4">
+				<img src="{{ "/assets/images/organizers/" | append: page.avatar | relative_url }}" class="card-img-top" alt="{{ page.name }}">
+			</div>
+			<div class="col-md-8">
+				<div class="card-body">
+					<h5 class="card-title">{{ page.name }}</h5>
+					<h6 class="card-subtitle mb-2 text-muted">{{ page.affiliation }}</h6>
+					<p class="card-text">{{ page.content | markdownify }}</p>
+					<div class="fs-6 text-center">
+						{% if page.github %}
+						<p><a class="m-1 text-secondary text-underline-hover" target="_blank" href="{{ page.github }}"><i class="fa-brands fa-github text-primary fs-5"></i> GitHub</a></p>
+						{% endif %}
+						{% if page.linkedin %}
+						<p><a class="m-1 text-secondary text-underline-hover" target="_blank" href="{{ page.linkedin }}"><i class="fa-brands fa-linkedin text-primary fs-5"></i> LinkedIn</a></p>
+						{% endif %}
+						{% if page.email %}
+						<p><a class="m-1 text-secondary text-underline-hover" target="_blank" href="{{ page.email }}"><i class="fa-solid fa-at text-primary fs-5"></i> E-mail</a></p>
+						{% endif %}
+						{% if page.website %}
+						<p><a class="m-1 text-secondary text-underline-hover" target="_blank" href="{{ page.website }}"><i class="fa-solid fa-link text-primary fs-5"></i> Website</a></p>
+						{% endif %}
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</div>

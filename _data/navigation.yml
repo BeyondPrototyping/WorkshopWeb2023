@@ -1,0 +1,15 @@
+- name: Home
+  link: home
+- name: cfp
+  link: cfp
+- name: Timeline
+  link: timeline
+- name: Organizers
+  link: organizers
+- name: Practical
+  link: practical
+
+#- name: Participants
+#  link: participants
+#- name: Gallery
+#  link: gallery

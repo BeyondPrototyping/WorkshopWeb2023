@@ -1,0 +1,34 @@
+<div class="container-sm scroll-correction" id="organizers">
+
+	<h4 class="text-primary fw-bold">Organizers</h4>
+
+	<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 g-4">
+
+		{% for organizer in site.organizers %}
+		<div class="col">
+			<div class="h-100 m-4">
+				<img src="{{ "/assets/images/organizers/" | append: organizer.avatar | relative_url }}" class="card-img-top rounded-circle p-4" alt="{{ organizer.name }}">
+				<div class="text-center mt-4">
+					<h5 class="card-title"><a class="text-primary" href="{{ organizer.url | relative_url }}">{{ organizer.name }}</a></h5>
+					<h6 class="card-subtitle mb-2 text-muted">{{ organizer.affiliation }}</h6>
+				</div>
+				
+				<div class="fs-5 text-center">
+					{% if organizer.github %}
+					<a class="m-1" target="_blank" href="{{ organizer.github }}"><i class="fa-brands fa-github text-primary"></i></a>
+					{% endif %}
+					{% if organizer.linkedin %}
+					<a class="m-1" target="_blank" href="{{ organizer.linkedin }}"><i class="fa-brands fa-linkedin text-primary"></i></a>
+					{% endif %}
+					{% if organizer.email %}
+					<a class="m-1" target="_blank" href="{{ organizer.email }}"><i class="fa-solid fa-at text-primary"></i></a>
+					{% endif %}
+					{% if organizer.website %}
+					<a class="m-1" target="_blank" href="{{ organizer.website }}"><i class="fa-solid fa-link text-primary"></i></a>
+					{% endif %}
+				</div>
+			</div>
+		</div>
+		{% endfor %}		
+	</div>
+</div>

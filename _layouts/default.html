@@ -1,12 +1,24 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-  </head>
-  <body>
-    {{ content }}
-  </body>
+<html lang="{{ site.lang | default: " en-US" }}">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="{{ page.description }}">
+
+		<title>{{ site.data.content.title }}</title>
+
+		<link href="{{ "/assets/css/main.css" | relative_url }}" rel="stylesheet">
+		<link href="{{ "/assets/fontawesome/css/all.min.css" | relative_url }}" rel="stylesheet">
+		{% seo %}
+	</head>
+
+	<body data-bs-spy="scroll" data-bs-target="#navbar-header" data-bs-smooth-scroll="true" tabindex="0" data-bs-root-margin="0px 0px -35%" class="d-flex flex-column min-vh-100">
+        {% include navigation.html %}
+        {{ content }}
+		<span class="mt-4 mb-4"></span>
+		{% include footer.html %}
+        <script src="{{ "/assets/js/bootstrap.bundle.min.js" | relative_url }}"></script>
+	</body>
+
 </html>
