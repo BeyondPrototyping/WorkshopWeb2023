@@ -1,18 +1,15 @@
-<!-- Navigation header -->
 <header>
-	<a class="close-navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-    
-	</a>
+	<a class="close-navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation"></a>
 	<nav id="navbar-header" class="navbar navbar-expand-lg navbar-dark bg-primary px-3 fixed-top header">
 		<a class="navbar-brand text-uppercase fw-bold text-light fs-6" href="{{ "/" | relative_url }}">{{ page.title }}</a>
-		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation" style="--bs-navbar-toggler-font-size:1rem;">
 			<span class="navbar-toggler-icon"></span>
 		</button>		
 		<div class="collapse navbar-collapse" id="navbarScroll">
 			<ul class="navbar-nav ms-auto my-2 my-lg-0 nav-pills">
 				{% for item in site.data.navigation %}
 				<li class="nav-item">
-					<a class="nav-link fw-semibold text-uppercase {% if item.disabled and item.disabled %}text-muted disabled{% else %}text-light{% endif %}" aria-current="page" href="/#{{ item.link }}">{{ item.name }}</a>
+					<a class="nav-link fw-semibold text-uppercase {% if item.disabled and item.disabled %}text-muted disabled{% else %}text-light{% endif %}" aria-current="page" href="#{{ item.link }}">{{ item.name }}</a>
 				</li>
 				{% endfor %}
 			</ul>
