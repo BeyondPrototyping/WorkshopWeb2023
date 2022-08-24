@@ -18,18 +18,33 @@
 }
 
 
+.navbar{
+	z-index: 2;
+}
+.close-navbar-toggler{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+}
+.close-navbar-toggler.collapsed{
+	z-index: -1;
+}
 
 .img-mask {
 	background-color: rgba(0, 0, 0, 0.6);
 }
 
-.header {
-	height: $header_height;
-	font-size: 0.9rem;
+nav.header {
+	/*height: $header_height;*/
+	font-size: 0.8rem;
 }
 
 body {
 	padding-top: $header_height;
+	position: relative;
 }
 
 footer {

@@ -3,7 +3,7 @@
 
 @charset 'UTF-8';
 
-$header_height: 56px;
+$header_height: 50px;
 $banner: "{{ '/assets/images/banner.webp' | relative_url }}";
 
 @import "config";
