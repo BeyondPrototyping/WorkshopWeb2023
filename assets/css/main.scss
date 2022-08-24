@@ -1,8 +1,11 @@
 ---
 ---
 
+@charset 'UTF-8';
+
+
 $header_height: 56px;
-$banner: url("{{ "/assets/images/banner.webp" | relative_url }}");
+$banner: "{{ '/assets/images/banner.webp' | relative_url }}";
 
 @import "config";
 @import "bootstrap-5.2.0/bootstrap";

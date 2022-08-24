@@ -1,6 +1,6 @@
 
 .img-banner {
-	background-image: $banner;
+	background-image: url($banner);
 	background-size: cover;
 	height: 200px;
 }
