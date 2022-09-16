@@ -1,11 +1,15 @@
 ---
 name: David Cuartielles
 affiliation:  Malmo University
-avatar: unknown.png
+avatar: davidcuartielles.png
 github:
 linkedin:
 email:
 website:
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+David Cuartielles is co-head of the MSc in interaction design at Malmo University, as well as co-founder of the Arduino platform and head of research at the Arduino company. He has experience in large scale prototypes, co-design experiences in communities of practice, creation of open source laboratories, and developing open products.
+
+Read more about the MSc. in interaction design at: [https://mau.se/en/study-education/programme/taind](https://mau.se/en/study-education/programme/taind/){:target="_blank"}
+
+Read about Arduino at: [https://www.arduino.cc](https://www.arduino.cc){:target="_blank"}

@@ -1,11 +1,11 @@
 ---
 name: Hyunjoo Oh
 affiliation: Georgia Institute of Technology
-avatar: unknown.png
+avatar: hyunjoooh.jpg
 github:
 linkedin:
 email:
-website:
+website: https://www.codecraft.group/hyunjoo-oh
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Hyunjoo Oh is an assistant professor with a joint appointment in the School of Industrial Design and the School of Interactive Computing at Georgia Tech. She is also the director of the CoDe Craft group ([https://codecraft.group](https://codecraft.group){:target="_blank"}). She develops tools that integrate everyday craft materials with computing and studies how those technologies can empower designers in investigating new expressive and technical possibilities.

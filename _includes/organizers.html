@@ -24,7 +24,10 @@
 					<a class="m-1" target="_blank" href="{{ organizer.email }}"><i class="fa-solid fa-at text-primary"></i></a>
 					{% endif %}
 					{% if organizer.website %}
-					<a class="m-1" target="_blank" href="{{ organizer.website }}"><i class="fa-solid fa-link text-primary"></i></a>
+					<a class="m-1" target="_blank" href="{{ organizer.website }}"><i class="fa-solid fa-globe text-primary"></i></a>
+					{% endif %}
+					{% if organizer.twitter %}
+					<a class="m-1" target="_blank" href="{{ organizer.twitter }}"><i class="fa-brands fa-twitter text-primary"></i></a>
 					{% endif %}
 				</div>
 			</div>
