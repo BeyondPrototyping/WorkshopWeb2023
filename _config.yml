@@ -1,5 +1,5 @@
 url: "https://electrofab.prototyping.id" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 title: "ElectroFab" # the name of your site, e.g. ACME Corp.
 repository: ElectroFabWorkshop/ElectroFabWorkshop
 
