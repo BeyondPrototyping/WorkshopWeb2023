@@ -1,7 +1,8 @@
-url: "https://mannulambrichts.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://electrofab.prototyping.id" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/ElectroFabWorkshop" # the subpath of your site, e.g. /blog
 title: "ElectroFab" # the name of your site, e.g. ACME Corp.
-repository: MannuLambrichts/ElectroFabWorkshop
+repository: ElectroFabWorkshop/ElectroFabWorkshop
+
 
 collections:
   organizers:
