@@ -8,9 +8,5 @@
   link: organizers
 - name: Practical
   link: practical
-- name: Participants
-  link: participants
-  disabled: true
-- name: Gallery
-  link: gallery
-  disabled: true
+- name: Sponsors
+  link: sponsors

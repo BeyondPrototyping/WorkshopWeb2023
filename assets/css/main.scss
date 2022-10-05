@@ -5,6 +5,7 @@
 
 $header_height: 50px;
 $banner: "{{ '/assets/images/banner.jpg' | relative_url }}";
+$navbar_background: #979088;
 
 @import "config";
 @import "bootstrap-5.2.0/bootstrap";
