@@ -10,7 +10,8 @@
 				<img src="{{ "/assets/images/organizers/" | append: organizer.avatar | relative_url }}" class="card-img-top rounded-circle p-4" alt="{{ organizer.name }}">
 				<div class="text-center mt-4">
 					<h5 class="card-title"><a class="text-primary" href="{{ organizer.url | relative_url }}">{{ organizer.name }}</a></h5>
-					<h6 class="card-subtitle mb-2 text-muted">{{ organizer.affiliation }}</h6>
+					<h6 class="card-subtitle mt-2 text-muted">{{ organizer.affiliation }},</h6>
+					<h6 class="card-subtitle mb-2 text-muted">{{ organizer.country }}</h6>
 				</div>
 				
 				<div class="fs-5 text-center">

@@ -1,6 +1,7 @@
 ---
 name: Mannu Lambrichts
-affiliation: Hasselt University, Belgium
+affiliation: Hasselt University
+country: Belgium
 avatar: unknown.png
 github: https://github.com/MannuLambrichts
 linkedin:

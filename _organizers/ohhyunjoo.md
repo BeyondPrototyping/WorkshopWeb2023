@@ -1,6 +1,7 @@
 ---
 name: Hyunjoo Oh
-affiliation: Georgia Institute of Technology, Atlanta, United States
+affiliation: Georgia Institute of Technology
+country: Atlanta, United States
 avatar: hyunjoooh.jpg
 github:
 linkedin:

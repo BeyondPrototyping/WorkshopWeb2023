@@ -1,6 +1,7 @@
 ---
 name: Steve Hodges
-affiliation: Microsoft Research, United Kingdom
+affiliation: Microsoft Research
+country: United Kingdom
 avatar: stevehodges.jpg
 github:
 linkedin:

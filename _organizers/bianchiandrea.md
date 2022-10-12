@@ -1,6 +1,7 @@
 ---
 name: Andrea Bianchi
-affiliation: KAIST, South Korea
+affiliation: KAIST
+country: South Korea
 avatar: andreabianchi.jpg
 github:  https://github.com/makinteract
 linkedin:
