@@ -1,6 +1,6 @@
 ---
 name: David Cuartielles
-affiliation:  Malmo University, Arduino
+affiliation:  Arduino, Malmo University, Sweden
 avatar: davidcuartielles.png
 github: https://github.com/dcuartielles
 linkedin:

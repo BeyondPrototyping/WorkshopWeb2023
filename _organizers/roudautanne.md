@@ -1,6 +1,6 @@
 ---
 name: Anne Roudaut
-affiliation: University of Bristol, UK
+affiliation: University of Bristol, United Kingdom
 avatar: unknown.png
 github:
 linkedin:
