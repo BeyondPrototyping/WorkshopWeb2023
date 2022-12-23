@@ -1,12 +1,3 @@
 - name: Home
   link: 
-- name: cfp
-  link: cfp
-- name: Timeline
-  link: timeline
-- name: Organizers
-  link: organizers
-- name: Practical
-  link: practical
-- name: Sponsors
-  link: sponsors
+  

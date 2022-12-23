@@ -2,7 +2,7 @@
 name: Mannu Lambrichts
 affiliation: Hasselt University
 country: Belgium
-avatar: unknown.png
+avatar: mannulambrichts.jpg
 github: https://github.com/MannuLambrichts
 linkedin:
 email:

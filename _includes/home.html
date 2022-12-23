@@ -1,20 +1,35 @@
-<div class="container-sm scroll-correction" id="home">
+<!-- Banner image -->
+<div class="text-center">
+	<div class="img-banner d-block w-100"></div>
+	<img class="w-100 bg-white px-3" src="{{ '/assets/images/logos.png' | relative_url }}" alt="">
+	<!--<img class="d-block mx-auto mb-4" src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">-->
 
-	<h4 class="text-primary fw-bold">Background</h4>
+	<div class="py-1 text-dark text-center navbar-color1 m-4">
+		<h1 class="display-4 fw-bold mb-3">{{ page.heading }}:</h1>
+		<h1 class="display-6 fw-bold mb-3" style="color:#089aa0">{{ page.subheading }}</h1>
+		<p class="fs-5 m-4 text-center"><span class="border rounded p-2"><span style="color:#b51900">CHI2023 Workshop [WS2]</span> | <span>Sunday, April 23rd</span></span></p>
+	</div>
 
-	<p class="fs-6">
-		Electronics prototyping boards such as Arduino, BBC micro:bit, and Raspberry Pi, work with a variety of software tools to enable a wide variety of creators with and without an engineering background — including students and researchers — to rapidly and inexpensively create interactive prototypes. By opening up the process of prototyping to more creators, and by making it cheaper and quicker, these prototyping platforms and toolkits have enabled research and explorations that weave computing into the fabric of the world around us. Today, however, the most successful platforms follow a particular format: they are based on a rigid circuit board comprising a microcontroller and general-purpose expansion ports or pins. While these technologies support prototyping pretty effectively, <strong class="text-muted">we think there is still an opportunity for a more diverse set of technologies to further empower an even broader set of technology designers, engineers, makers, and researchers</strong>.
-	</p>
+	<div class="col-lg-6 mx-auto">
+		{% include content/introduction.html %}
 
-	<h4 class="text-primary fw-bold">Scope and Aim</h4>
+		<h4 class="text-primary fw-bold mb-4 mt-5">About the Workshop</h4>
+		{% include content/workshop.html %}
 
-	<p class="fs-6">
-		With this workshop, <strong class="text-muted">we aim to understand how recent software and hardware trends</strong>, from metamaterials to neurally-inspired processors, from printed electronics to reprogrammable digital and analog arrays (FPGAs & FPAAs), and from MicroPython to live-programming <strong class="text-muted">might be leveraged in future prototyping software platforms and hardware toolkits, beyond the well-established paradigm of mainstream microcontroller boards</strong>. What is the future of electronics prototyping toolkits? How will the requirements and applications of new prototyping toolkits evolve? How will these tools fit in the current ecosystem, and how will they be learned? What are the new opportunities for research and commercialization?
-	</p>
+		<h4 class="text-primary fw-bold mb-4 mt-5">How to Participate?</h4>
+		{% include content/participation.html %}
 
-	<h4 class="text-primary fw-bold">Workshop Description and Structure</h4>
+		<h4 class="text-primary fw-bold mb-4 mt-5">Practical</h4>
+		{% include content/timeline.html %}
+		{% include content/practical.html %}
 
-	<p class="fs-6">
-		This workshop will bring together those working in academia, industry, and beyond, with experience or interest in physical computing, electronic hardware design, software platforms for device prototyping, and digital fabrication of electronics for interactive artifacts. <strong class="text-muted">The workshop organizers will foster discussion, facilitate synthesis work, help the exchange of ideas to move the field forward, and build a community at CHI around electronic prototyping tools and toolkits</strong>.
-	</p>
+		<h4 class="text-primary fw-bold mb-4 mt-5">Sponsor</h4>
+		{% include content/sponsors.html %}
+
+		<h4 class="text-primary fw-bold mb-4 mt-5">Organizers</h4>
+	
+	</div>
+		{% include content/organizers.html %}
+
+	
 </div>

@@ -2,7 +2,7 @@
 name: Anne Roudaut
 affiliation: University of Bristol
 country: United Kingdom
-avatar: unknown.png
+avatar: anneroudaut.jpg
 github:
 linkedin:
 email:
