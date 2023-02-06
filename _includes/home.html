@@ -2,12 +2,12 @@
 <div class="text-center">
 	<div class="img-banner d-block w-100"></div>
 	<img class="w-100 bg-white px-3" src="{{ '/assets/images/logos.png' | relative_url }}" alt="">
-	<!--<img class="d-block mx-auto mb-4" src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">-->
 
 	<div class="py-1 text-dark text-center navbar-color1 m-4">
 		<h1 class="display-4 fw-bold mb-3">{{ page.heading }}:</h1>
-		<h1 class="display-6 fw-bold mb-3" style="color:#089aa0">{{ page.subheading }}</h1>
-		<p class="fs-5 m-4 text-center"><span class="border rounded p-2"><span style="color:#b51900">CHI2023 Workshop [WS2]</span> | <span>Sunday, April 23rd</span></span></p>
+		<h1 class="display-6 fw-bold mb-3" class="text-info">{{ page.subheading }}</h1>
+		<p class="fs-5 m-4 text-center"><span class="border rounded p-2"><span class="text-danger">CHI2023 Workshop
+					[WS2]</span> | <span>Sunday, April 23rd</span></span></p>
 	</div>
 
 	<div class="col-xl-8 col-xxl-6 mx-xl-auto m-4">
@@ -19,17 +19,15 @@
 		<h4 class="text-primary fw-bold mb-4 mt-5">How to Participate?</h4>
 		{% include content/participation.html %}
 
-		<h4 class="text-primary fw-bold mb-4 mt-5">Practical</h4>
+		<h4 class="text-primary fw-bold mb-4 mt-5">Practical Information</h4>
 		{% include content/timeline.html %}
 		{% include content/practical.html %}
 
-		<h4 class="text-primary fw-bold mb-4 mt-5">Sponsor</h4>
-		{% include content/sponsors.html %}
-
-		<h4 class="text-primary fw-bold mb-4 mt-5">Organizers</h4>
-	
 	</div>
-		{% include content/organizers.html %}
 
-	
+	<h4 class="text-primary fw-bold mb-4 mt-5">Organizers</h4>
+	{% include content/organizers.html %}
+
+	<h4 class="text-primary fw-bold mb-4 mt-5">Sponsor</h4>
+	{% include content/sponsors.html %}
 </div>
