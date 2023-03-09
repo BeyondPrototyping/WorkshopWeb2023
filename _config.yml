@@ -7,6 +7,8 @@ repository: ElectroFabWorkshop/ElectroFabWorkshop
 collections:
   organizers:
     output: true
+  papers:
+    output: true
 
 defaults:
   - scope:

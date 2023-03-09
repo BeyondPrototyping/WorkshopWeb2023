@@ -4,5 +4,70 @@ title: "ElectroFab"
 ---
 
 <div class="container mt-4">
-	This page will be filled in with accepted papers and video's.
+	<!--
+	<div class="py-1 text-dark text-center navbar-color1 m-4">
+		<h1 class="display-4 fw-bold mb-3">Beyond Prototyping Boards:</h1>
+		<h1 class="display-6 fw-bold mb-3 text-info">Future Paradigms for Electronics Toolkits</h1>
+		<p class="fs-5 m-4 text-center"><span class="border rounded p-2"><span class="text-danger">CHI2023 Workshop [WS2]</span> | <span>Sunday, April 23rd</span></span></p>
+	</div>
+	-->
+
+	<div class="row">
+		<p class="lead mb-4">
+			On this page you will find a list of all the papers that have been accepted for our workshop. We are grateful to everyone who submitted their work, and we are thrilled to showcase the diverse and innovative research that has been submitted. Congratulations to all the authors whose papers have been accepted!
+		</p>
+
+		<h4 class="fw-bold mb-3 text-info">Submitted papers:</h4>
+
+		<div class="col-sm-8 offset-sm-2 col-md-5 offset-md-0 col-lg-4 mb-4 mb-md-0">
+			<div id="paper-list" class="list-group">
+				{% for paper in site.papers %}
+				<a class="list-group-item list-group-item-action text-underline text-info" href="#paper-{{paper.number}}">{{ paper.title }}</a>
+				{% endfor %}
+			</div>
+		</div>
+		<div class="col-md-7 col-lg-8">
+			{% for paper in site.papers %}
+			{% assign authors = paper.authors | split: ", " %}
+			<div class="card mb-4" id="paper-{{paper.number}}">
+				<div class="card-body">
+					<h5 class="card-title">{{ paper.title | replace_first: ":", ":<br />" }}</h5>
+
+					<!-- authors information -->
+					{% for i in (0..8) %}
+						{% capture current_author_name %}author{{i}}_name{% endcapture %}
+						{% capture current_author_affiliation %}author{{i}}_affiliation{% endcapture %}
+						{% capture current_author_email %}author{{i}}_email{% endcapture %}
+						{% capture current_author_video %}author{{i}}_video{% endcapture %}
+						
+						{% if paper[current_author_name] %}
+						<p class="card-subtitle m-0 text-muted text-light text-start">							
+							<span class="fw-bolder">{{paper[current_author_name]}}</span>
+							{% if paper[current_author_affiliation] %}({{paper[current_author_affiliation]}}){% endif %}
+							{% if paper[current_author_email] %}<span class="fst-italic"><a href="mailto: {{paper[current_author_email]}}">{{paper[current_author_email]}}</a></span>{% endif %}
+							{% if paper[current_author_video] %}
+								{% capture video_url %}/assets/participants/{{paper[current_author_video]}}{% endcapture %}
+								<span class="float-end text-info">[<a class="text-info" href="{{ video_url | relative_url }}" target="_blank">see video</a>]</span>
+							{% endif %}
+						</p>
+						{% endif %}
+					{% endfor %}
+
+					<!-- abstract -->
+					<p class="card-text mt-2">{{paper.abstract}}</p>
+
+					<!-- pdf -->
+					<p class="mt-2">
+						{% if paper.pdf %}
+							{% capture paper_url %}/assets/papers/{{paper.pdf}}{% endcapture %}
+							<a class="text-info" href="{{ paper_url | relative_url }}" target="_blank">Full paper (pdf)</a>
+						{% else %}
+							<span class="fw-light">(paper coming soon!)</span>
+						{% endif %}
+					</p>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
 </div>
