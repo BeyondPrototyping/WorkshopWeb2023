@@ -1,0 +1,19 @@
+---
+number: 61
+title: "Eight Challenges of Future Electronics Toolkits"
+
+author0_name: Anke Brocker
+author0_email: 
+author0_affiliation: RWTH Aachen University
+author0_video: 
+
+author1_name: Jan Borchers
+author1_email: 
+author1_affiliation: RWTH Aachen University
+author1_video: 
+
+
+abstract: "We present eight challenges that electronics prototyping toolkits are facing, and that HCI research can help to address. These observations are based on our own and related work. We close with a short sample vision of future electronics prototyping."
+
+pdf: 
+---
