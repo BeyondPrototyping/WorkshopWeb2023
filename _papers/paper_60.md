@@ -3,9 +3,7 @@ number: 60
 title: "Hacking the Stack: From Multilayer PCBs to Shape-Changing Composites"
 
 author0_name: Jesse T Gonzalez
-author0_email: 
 author0_affiliation: Carnegie Mellon University
-author0_video: 
 
 
 abstract: "Most printed circuit boards are made of layers – stacks of copper-coated cores, with insulating sheets sandwiched in-between. The process of making this stack (layup and bonding) is almost always performed in a factory, as a routine step in a highly-mature fabrication process. But a savvy hacker can tweak this formula. If we intercept the boards in the middle of this conventional pipeline — taking command of the layup procedure ourselves — we can insert novel structures that transform standard PCBs into dynamic, compact electro-mechanical devices.

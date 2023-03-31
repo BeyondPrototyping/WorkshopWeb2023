@@ -3,17 +3,13 @@ number: 7
 title: "To boldly prototype what everyone has prototyped before: the voyages and perspectives of prototyping novices"
 
 author0_name: Ali Askari
-author0_email: 
 author0_affiliation: Ulm University, Institute of Media Informatics
-author0_video: 
 
 author1_name: Evgeny Stemasov
-author1_email: 
 author1_affiliation: Ulm University, Institute of Media Informatics
-author1_video: 
 
 
-abstract: "Microcontroller chips are commonly used in everyday electronics. Household items as well as industrial machinery and even defensive technologies rely on these VLSI IC computing units. For a long time, experts in the fields of electrical engineering, computer science, or similar domains were required to program such units and design the components around them. Even though projects like “Basic Stamp” tried to popularize microcontrollers like the PIC16, making them more accessible for novice users in the early 90’s, and several educational kits attempted the same later on, it is fair to state that the concept used by the Arduino Prototyping platform enabled a broader range of people with a more diverse professional background to use microcontroller technology for themselves. Artists, hobbyists, but also people from the aforementioned technical fields use the platform for their projects, due to its simplified software and hardware environment, as well as their low entry barrier. However, with advances in electronics and the creativity of groups and individuals, projects and extensions have become more complex, and therefore, the requirements towards the capabilities, as well as the usability of such prototyping platforms have increased. With this position paper, we want to give an insight into the challenges and obstacles novice users of the Arduino platform can encounter by analyzing data from a web-forum and interpreting it by comparing it to our own observations we made as instructors in the field of hardware prototyping, followed by suggestions on how to improve in later iterations of the platform."
+abstract: "Microcontroller chips are commonly used in everyday electronics. Household items as well as industrial machinery and even defensive technologies rely on these Very-large-scale integration integrated circuits (VLSI IC) computing units. For a long time, experts in the fields of electrical engineering, computer science, or similar domains were required to program such units and design the components around them. Even though projects like “Basic Stamp” tried to popularize microcontrollers like the PIC16, making them more accessible for novice users in the early 90s, and several educational kits attempted the same later, it is fair to state that the concept used by the Arduino Prototyping platform enabled a broader range of people with a more diverse professional background to use microcontroller technology for themselves. Artists, hobbyists, but also people from the aforementioned technical fields use the platform for their projects, due to its simplified software and hardware environment, as well as their low entry barrier. However, with advances in electronics and the creativity of groups and individuals, projects and extensions have become more complex, and therefore, the requirements towards the capabilities, as well as the usability of such prototyping platforms have increased. With this position paper, we want to give an insight into the challenges and obstacles novice users of the Arduino platform can encounter by analyzing data from a web-forum and interpreting it by comparing it to our own observations we made as instructors in the field of hardware prototyping, followed by suggestions to an initial set of promising directions for easing the entry level for novice users."
 
 pdf: 
 ---
