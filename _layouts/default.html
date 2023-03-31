@@ -10,6 +10,7 @@
 
 	<link href="{{ '/assets/css/main.css' | relative_url }}" rel="stylesheet">
 	<link href="{{ '/assets/fontawesome/css/all.min.css' | relative_url }}" rel="stylesheet">
+	<link href="{{ '/assets/css/theme.bootstrap_4.css' | relative_url }}" rel="stylesheet">
 	{% seo %}
 </head>
 
@@ -23,6 +24,46 @@
 <span class="mt-4 mb-4"></span>
 {% include footer.html %}
 <script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/jquery-3.6.4.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/jquery.tablesorter.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/jquery.tablesorter.widgets.js' | relative_url }}"></script>
+
+<script>
+	$(document).ready(function () {
+		$("#participants").tablesorter({
+			theme: "bootstrap",
+
+			//widthFixed: true,
+
+			// widget code contained in the jquery.tablesorter.widgets.js file
+			// use the zebra stripe widget if you plan on hiding any rows (filter widget)
+			// the uitheme widget is NOT REQUIRED!
+			widgets: ["filter", "columns"],
+
+			widgetOptions: {
+				// using the default zebra striping class name, so it actually isn't included in the theme variable above
+				// this is ONLY needed for bootstrap theming if you are using the filter widget, because rows are hidden
+				//zebra: ["even", "odd"],
+
+				// class names added to columns when sorted
+				columns: ["primary", "secondary", "tertiary"],
+
+				// reset filters button
+				filter_reset: ".reset",
+
+				// extra css class name (string or array) added to the filter element (input or select)
+				filter_cssFilter: [
+					'form-control',
+					'form-control',
+					'form-control',
+					'form-control'
+				]
+
+			}
+		})
+
+	});
+</script>
 </body>
 
 </html>
