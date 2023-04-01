@@ -14,5 +14,5 @@ author2_affiliation: MIT
 
 abstract: "We present a set of wearable toolkits for applications ranging from artistic performance to neuroscience. The development of these projects allowed discovering engineering and strategic mistakes over the years. From embedded electronics to eTextiles and materials science, our research leans towards accessible and reproducible smart fibers to democratize conformable wearable devices."
 
-pdf: 
+pdf: electrofab23-final29.pdf
 ---

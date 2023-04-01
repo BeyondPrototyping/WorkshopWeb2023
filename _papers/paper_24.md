@@ -19,5 +19,5 @@ author4_affiliation: UCLA
 
 abstract: "While modern electronics prototyping systems – both breadboard-based and toolkits – have enabled even novices to be productive and able to build functional devices quickly, they also impose a low ceiling on capability by being limited to the ecosystem of breadboard- or toolkit-compatible parts. However, inspired by the success of software engineering and its library-driven development flow in being novice-friendly and scaling up to complex applications, we instead examine a hardware description language (HDL) approach to electronics design that can enable user-created libraries and user-defined design automation to make electronics design easier and more efficient while offering the flexibility and capability of custom circuit boards. In this position paper, we recap our prior work on this HDL and discuss extensions to better support prototyping as well as explore the broader trade-off space of electronics design tools."
 
-pdf: 
+pdf: electrofab23-final24.pdf
 ---

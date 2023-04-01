@@ -11,5 +11,5 @@ author1_affiliation: RWTH Aachen University
 
 abstract: "We present eight challenges that electronics prototyping toolkits are facing, and that HCI research can help to address. These observations are based on our own and related work. We close with a short sample vision of future electronics prototyping."
 
-pdf: 
+pdf: electrofab23-final61.pdf
 ---

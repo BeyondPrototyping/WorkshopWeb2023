@@ -1,42 +1,49 @@
-Name,Affiliation,Contact,ID,Paper,Video,Role
-Glenn Fernandes,Northwestern University,glennf2802@gmail.com,1,Preventing Prototyping Pitfalls and Going Beyond: A Strategy for Affordable and Modular Wearable Embedded Systems,,participant
-Mahdi Pedram,Northwestern University,mahdi.pedram@northwestern.edu,1,Preventing Prototyping Pitfalls and Going Beyond: A Strategy for Affordable and Modular Wearable Embedded Systems,,participant
-Ellen Do,University of Colorado Boulder,ellen.do@colorado.edu,6,Fabricating Paper Circuits with Subtractive Processing,,participant
-Daniel Jackson,"Open Lab, School of Computing, Newcastle University, UK",dan.jackson@newcastle.ac.uk,14,Repurposing mobile devices as electronic toolkit components for IoT and wearable prototyping,,participant
-Richard Lin,UCLA,richard.lin@berkeley.edu,24,Unleashing Electronics Prototyping (and beyond): computational design for circuit boards,,participant
-Oliver Heine,University of the Bundeswehr Munich,oliver.hein@unibw.de,26,Shake-It-All: A Toolkit for Sensing Tangible Interactions on Everyday Objects,,participant
-Sarah Delgado Rodriguez,University of the Bundeswehr Munich,sarah.delgado@unibw.de,26,Shake-It-All: A Toolkit for Sensing Tangible Interactions on Everyday Objects,,participant
-Cedric Honnet,MIT,honnet@mit.edu,29,From Wearable Electronics To In-Fiber Circuits,,participant
-Jake Read,MIT Center for Bits and Atoms,jakeread@mit.edu,31,Softening Hardware; Enabling the Interactive Development of Modular Mechatronic Systems,,participant
-Leo McElroy,"Hack Club, MIT Center for Bits and Atoms",leomcelroy@gmail.com,"31,44",Softening Hardware; Enabling the Interactive Development of Modular Mechatronic Systems / Parametric Circuit Design Made Accessible Through Programming and Bidirectional Interfaces,,participant
-Jasmine Lu,University of Chicago,jasminelu@uchicago.edu,33,Creating Pathways for Electronics Prototyping with Reused Components,,participant
-Ilan Mandel,"Information Science, Cornell Tech",im334@cornell.edu,35,Frankenstein’s Toolkit: Prototyping Electronics Using Consumer Products,,participant
-J. Garza,"University of California, San Diego",jgarzagu@eng.ucsd.edu,40,PCB-ready breakout boards: Bridging the gap between electronics prototyping and production.,,participant
-Lars Erik Holmquist,Northumbria University,lars.erik.holmquist@gmail.com,42,From Prototyping Platforms to Delivery Platforms,,participant
-Quentin Bolsee,"Vrije Universiteit Brussel, MIT Center for Bits and Atoms",quentinbolsee@hotmail.com,44,Parametric Circuit Design Made Accessible Through Programming and Bidirectional Interfaces,,participant
-Clement Zheng,National University of Singapore,clement.zheng@nus.edu.sg,53,Facilitating Physical Computing with Computer Vision Markers,,participant
-Peter Gyory,"University of Colorado, Boulder",peter.gyory@colorado.edu,53,Facilitating Physical Computing with Computer Vision Markers,,participant
-Oliver Child,University of Bristol,oc17584@bristol.ac.uk,56,How Open Silicon Could Transform the Prototyping Board Landscape,,participant
-Hye-Young Jo,Chung-Ang University,jhy.vfx@gmail.com,58,In-Situ Assistance for Fluctuating Maker’s Expertise in the Continuous Prototyping Process,,participant
-Yoonji Kim,Chung-Ang University,yoonji.h.kim@gmail.com,58,In-Situ Assistance for Fluctuating Maker’s Expertise in the Continuous Prototyping Process,,participant
-Anke Brocker,RWTH Aachen University,brocker@cs.rwth-aachen.de,61,Eight Challenges of Future Electronics Toolkits,,participant
-Jan Borchers,RWTH Aachen University,borchers@cs.rwth-aachen.de,61,Eight Challenges of Future Electronics Toolkits,,participant
-Soufiane Krik,Free University of Bozen-Bolzano,soufiane.krik@unibz.it,62,Open Phygital Toolkits for Inclusive Science and Technology Education ,,participant
-Kongpyung (Justin) Moon,KAIST,kpmoon@gmail.com,72,From Design to Interaction: an overview of 3D Printing   interactive prototypes,,participant
-Wenda Zhao,University of Bristol,wenda.zhao.18127@outlook.com,78,Integrating Material-Centric Approaches in Innovative Prototyping Platforms,,participant
-Teresa Pelinski,Queen Mary University of London,t.pelinskiramos@qmul.ac.uk,82,Computing ecosystems: neural networks and embedded hardware platforms,,participant
-Cameron Steer,University of Bath,cds29@bath.ac.uk,84,Towards Breakout Boards and Prototype Kits for Force-Responsive Displays,,participant
-James Nash,University of Bath,jn688@bath.ac.uk,84,Towards Breakout Boards and Prototype Kits for Force-Responsive Displays,,participant
-Teodora Dinca,University of Bath,td598@bath.ac.uk,84,Towards Breakout Boards and Prototype Kits for Force-Responsive Displays,,participant
-Evgeny Stemasov,"Ulm University, Institute of Media Informatics",evgeny.stemasov@uni-ulm.de,87,Design Where and When Necessary – In-Situ Remixing for Prototyping Electronics,,participant
-Bingjian Huang,University of Toronto,bj.huang@mail.utoronto.ca,,,,participant
-Joe Finney,Lancaster University,j.finney@lancaster.ac.uk,,,,participant
-Kirsten Ellis,Monash University,kirsten.ellis@monash.edu,,,,participant
-Kobi Hartley,Lancaster University,k.hartley1@lancaster.ac.uk,,,,participant
-Steven Abreu,University of Groningen,s.abreu@rug.nl,,,,participant
-Andrea Bianchi,KAIST,,,,,organizer
-Steve Hodges,Micrisift Research UK,,,,,organizer
-David Cuartielles,Arduino / Malmo University,,,,,organizer
-Hyunjoo Oh,Georgia Institute of Technology,,,,,organizer
-Mannu Lambrichts,Hasselt University,,,,https://www.youtube.com,organizer
-Anne Roudaut,University of Bristol,,,,,organizer
+Name,Affiliation,ID,Paper,Video,Role
+Alexander Bincalar,University of Southampton,36,Simplifying Analogue Signal Processing into a Prototyping Toolkit,https://drive.google.com/file/d/1LAer_HspXuuz1ndLjR5BY7jEcbKloJmK/view?usp=sharing,author
+Ali Askari,"Ulm University, Institute of Media Informatics","7,87",To boldly prototype what everyone has prototyped before: the voyages and perspectives of prototyping novices / Design Where and When Necessary – In-Situ Remixing for Prototyping Electronics,https://drive.google.com/file/d/1K4VWjhoKi_7tIaYQpLGvOS0UQwqAmkaN/view?usp=sharing,participant
+Anke Brocker,RWTH Aachen University,61,Eight Challenges of Future Electronics Toolkits,https://drive.google.com/file/d/1JyTu8gps3VepeigoqB54gXOwvfHACEo8/view?usp=sharing,participant
+Bingjian Huang,University of Toronto,,,,participant
+Cameron Steer,University of Bath,84,Towards Breakout Boards and Prototype Kits for Force-Responsive Displays,https://drive.google.com/file/d/1JyTu8gps3VepeigoqB54gXOwvfHACEo8/view?usp=sharing,participant
+Cedric Honnet,MIT,29,From Wearable Electronics To In-Fiber Circuits,,participant
+Clement Zheng,National University of Singapore,53,Facilitating Physical Computing with Computer Vision Markers,https://drive.google.com/file/d/1LNvjVv413gFCeDGbSBrdHYZ62pEoW3aS/view?usp=sharing,participant
+Daniel Jackson,"Open Lab, School of Computing, Newcastle University, UK",14,Repurposing mobile devices as electronic toolkit components for IoT and wearable prototyping,https://drive.google.com/file/d/1KVZvTFAnVaa9EYifQhxP5ZkfPkrq0MqX/view?usp=sharing,participant
+Ellen Do,University of Colorado Boulder,6,Fabricating Paper Circuits with Subtractive Processing,https://drive.google.com/file/d/1JxPQHstMmFqChgLo8JY5evKw9OYzNUXz/view?usp=sharing,participant
+Evgeny Stemasov,"Ulm University, Institute of Media Informatics","7,87",To boldly prototype what everyone has prototyped before: the voyages and perspectives of prototyping novices / Design Where and When Necessary – In-Situ Remixing for Prototyping Electronics,,participant
+Glenn Fernandes,Northwestern University,1,Preventing Prototyping Pitfalls and Going Beyond: A Strategy for Affordable and Modular Wearable Embedded Systems,,participant
+Hye-Young Jo,Chung-Ang University,58,In-Situ Assistance for Fluctuating Maker’s Expertise in the Continuous Prototyping Process,,participant
+Ilan Mandel,"Information Science, Cornell Tech",35,Frankenstein’s Toolkit: Prototyping Electronics Using Consumer Products,,participant
+J. Garza,"University of California, San Diego",40,PCB-ready breakout boards: Bridging the gap between electronics prototyping and production.,https://drive.google.com/file/d/1JuM7THmO7fn5jqsL1YApwSOgJw3dckp9/view?usp=sharing,participant
+Jake Read,MIT Center for Bits and Atoms,31,Softening Hardware; Enabling the Interactive Development of Modular Mechatronic Systems,https://drive.google.com/file/d/1KSHq4K77Cq4GwRAx1YjoPRGKM_oQ9afD/view?usp=sharing,participant
+James Nash,University of Bath,84,Towards Breakout Boards and Prototype Kits for Force-Responsive Displays,https://drive.google.com/file/d/1KUUF8IOOYJzYA-L4hVZVPkigJUcek_sD/view?usp=sharing,participant
+Jan Borchers,RWTH Aachen University,61,Eight Challenges of Future Electronics Toolkits,https://drive.google.com/file/d/1JtHOSuNS7Z-ROWzPe3eedQ1WSDBqC0Ji/view?usp=sharing,participant
+Jasmine Lu,University of Chicago,33,Creating Pathways for Electronics Prototyping with Reused Components,https://drive.google.com/file/d/1LHhx7DzTtL2yw44dBjecbe8FGy_jmgdy/view?usp=sharing,participant
+Joe Finney,Lancaster University,,,,participant
+Julian Rasch,LMU Munich,99,Challenges and Opportunities of Printed Electronics for Smart Tangible Learning Applications for Extended Reality,https://drive.google.com/file/d/1JwaspLR3_8lBoBIJKWYKDEttWy0RPpIb/view?usp=sharing,participant
+Kirsten Ellis,Monash University,,,,participant
+Kobi Hartley,Lancaster University,,,,participant
+Kongpyung (Justin) Moon,KAIST,72,From Design to Interaction: an overview of 3D Printing interactive prototypes,https://drive.google.com/file/d/1KAw1pK1HooYvV6T5acXbmgSOpxcjSo-1/view?usp=sharing,participant
+Lars Erik Holmquist,Northumbria University,42,From Prototyping Platforms to Delivery Platforms,https://drive.google.com/file/d/1JjVzxmTShr0mMHWYhOM7y4b3RkLchfpy/view?usp=sharing,participant
+Leo McElroy,"Hack Club, MIT Center for Bits and Atoms","31,44",Softening Hardware; Enabling the Interactive Development of Modular Mechatronic Systems / Parametric Circuit Design Made Accessible Through Programming and Bidirectional Interfaces,,participant
+Mahdi Pedram,Northwestern University,1,Preventing Prototyping Pitfalls and Going Beyond: A Strategy for Affordable and Modular Wearable Embedded Systems,,participant
+Oliver Child,University of Bristol,56,How Open Silicon Could Transform the Prototyping Board Landscape,https://drive.google.com/file/d/1JpZvqSNpbJBsAV2LkMTAlvWzwFVMGfqR/view?usp=sharing,participant
+Oliver Heine,University of the Bundeswehr Munich,26,Shake-It-All: A Toolkit for Sensing Tangible Interactions on Everyday Objects,,participant
+Peter Gyory,"University of Colorado, Boulder",53,Facilitating Physical Computing with Computer Vision Markers,https://drive.google.com/file/d/1LNvjVv413gFCeDGbSBrdHYZ62pEoW3aS/view?usp=sharing,participant
+Quentin Bolsee,"Vrije Universiteit Brussel, MIT Center for Bits and Atoms",44,Parametric Circuit Design Made Accessible Through Programming and Bidirectional Interfaces,,participant
+Richard Grafton,University of Bristol,2,Beyond Prototyping Boards: Easing Tensions in Hardware R&D,https://drive.google.com/file/d/1Kwp3wVmNgHPdprNL_zfo3KluUZ81XQj6/view?usp=sharing,participant
+Richard Lin,UCLA,24,Unleashing Electronics Prototyping (and beyond): computational design for circuit boards,https://drive.google.com/file/d/1LMwom-6OSHCyokP23w3Mtvb-FqMuWmuj/view?usp=sharing,participant
+Samar Sabie,University of Toronto,,,,participant
+Sarah Delgado Rodriguez,University of the Bundeswehr Munich,26,Shake-It-All: A Toolkit for Sensing Tangible Interactions on Everyday Objects,https://drive.google.com/file/d/1KUaLxB9uUwSh444sR56JXyxKkQDPt8H7/view?usp=sharing,participant
+Sebastian S. Feger,LMU Munich,99,Challenges and Opportunities of Printed Electronics for Smart Tangible Learning Applications for Extended Reality,https://drive.google.com/file/d/1KVZvTFAnVaa9EYifQhxP5ZkfPkrq0MqX/view?usp=sharing,participant
+Soufiane Krik,Free University of Bozen-Bolzano,62,Open Phygital Toolkits for Inclusive Science and Technology Education ,https://drive.google.com/file/d/1JmBhrj2De2nGQLwgvnkab6n4htbkrNgH/view?usp=sharing,participant
+Steven Abreu,University of Groningen,,,https://drive.google.com/file/d/1KFN0uo6eJkqgBJUmk3tXYkw7k_e18k_4/view?usp=sharing,participant
+Teodora Dinca,University of Bath,84,Towards Breakout Boards and Prototype Kits for Force-Responsive Displays,https://drive.google.com/file/d/1KaqongPNd35eSRvtEcl7Fy5ZK-or-kya/view?usp=sharing,participant
+Teresa Pelinski,Queen Mary University of London,82,Computing ecosystems: neural networks and embedded hardware platforms,https://drive.google.com/file/d/1K7XJD6oglpiJ_SzkKPcgu9843u7pSnEn/view?usp=sharing,participant
+Wenda Zhao,University of Bristol,78,Integrating Material-Centric Approaches in Innovative Prototyping Platforms,https://drive.google.com/file/d/1LOjpu2wRkJb5j_XJnzk6tjyThcKgrkqA/view?usp=sharing,participant
+Yoonji Kim,Chung-Ang University,58,In-Situ Assistance for Fluctuating Maker’s Expertise in the Continuous Prototyping Process,,participant
+Franco Caspe,Queen Mary University of London,82,Computing ecosystems: neural networks and embedded hardware platforms,https://drive.google.com/file/d/1K7XJD6oglpiJ_SzkKPcgu9843u7pSnEn/view?usp=sharing,participant
+Andrea Bianchi,KAIST,,,,organizer
+Anne Roudaut,University of Bristol,,,,organizer
+David Cuartielles,Arduino / Malmo University,,,,organizer
+Hyunjoo Oh,Georgia Institute of Technology,,,,organizer
+Mannu Lambrichts,Hasselt University,,,,organizer
+Steve Hodges,Microsoft Research UK,,,,organizer

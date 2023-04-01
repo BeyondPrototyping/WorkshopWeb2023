@@ -47,7 +47,7 @@ title: "ElectroFab 2023 - Papers"
 							
 							{% if paper[current_author_affiliation] %}({{paper[current_author_affiliation]}}){% endif %}
 							{% assign attending = site.data.participants | where: "Name", paper[current_author_name] %}							
-							{% if attending[0] %}
+							{% if attending[0] and attending[0].Role != "author" %}
 							<span class="float-end text-info">[attending]</span>
 							{% endif %}
 
@@ -67,12 +67,12 @@ title: "ElectroFab 2023 - Papers"
 
 					<!-- pdf -->
 					<p class="mt-2">
-						{% if paper.pdf %}
+						<!--{% if paper.pdf %}-->
 							{% capture paper_url %}/assets/papers/{{paper.pdf}}{% endcapture %}
 							<a class="text-info" href="{{ paper_url | relative_url }}" target="_blank">Full paper (pdf)</a>
-						{% else %}
+						<!--{% else %}
 							<span class="fw-light">(paper coming soon!)</span>
-						{% endif %}
+						{% endif %}-->
 					</p>
 				</div>
 			</div>

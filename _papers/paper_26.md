@@ -27,5 +27,5 @@ author6_affiliation: University of the Bundeswehr Munich
 
 abstract: "As computation is becoming increasingly ubiquitous, researchers and makers have shown a strong interest in similarly adapting the way we interact with technology. To this end novel user interaction devices are being developed. However, prototyping such devices usually requires profound expertise in soft- and hardware development. To empower people without this expertise, we envision a future where plug & play toolkits allow everyday objects to be augmented easily, rapidly, and in an inexpensive manner. We present the concept for the Shake-It-All toolkit, enabling plug & play sensing of a large variety of tangible interactions on everyday objects (e.g., touching, tilting, squeezing, shaking, or moving). We plan to implement Shake-It-All in the future to investigate use cases such as controlling IoT devices, embedded authentication, or physiological sensing."
 
-pdf: 
+pdf: electrofab23-final26.pdf
 ---
