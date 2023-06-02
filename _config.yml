@@ -1,8 +1,7 @@
-url: "https://electrofab.prototyping.id" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-title: "ElectroFab" # the name of your site, e.g. ACME Corp.
-repository: ElectroFabWorkshop/ElectroFabWorkshop
-
+url: 'https://beyond.prototyping.id' # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: '' # the subpath of your site, e.g. /blog
+title: 'Beyond Prototyping' # the name of your site, e.g. ACME Corp.
+repository: BeyondPrototyping/WorkshopWeb2023
 
 collections:
   organizers:
@@ -12,15 +11,14 @@ collections:
 
 defaults:
   - scope:
-      path: ""
-      type: "organizers"
+      path: ''
+      type: 'organizers'
     values:
-      layout: "organizer"
+      layout: 'organizer'
   - scope:
-      path: ""
+      path: ''
     values:
-      layout: "default"
-
+      layout: 'default'
 
 plugins:
   - jekyll-sitemap

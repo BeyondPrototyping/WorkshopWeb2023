@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "ElectroFab 2023 - Participants"
+title: "Beyond Prototyping 2023 - Participants"
 ---
 
 
@@ -9,7 +9,7 @@ title: "ElectroFab 2023 - Participants"
 
 
 	<div class="row">
-		
+
 		<h4 class="fw-bold mb-3 text-info">Participants</h4>
 
 		<table class="table tablesorter" id="participants">
@@ -25,10 +25,11 @@ title: "ElectroFab 2023 - Participants"
 				{% for participant in site.data.participants %}
 				<tr>
 					<td>
-						<span {% if participant.Role == "organizer" %} class="fw-bold" {% endif %}>{{ participant.Name }}</span>
+						<span {% if participant.Role=="organizer" %} class="fw-bold" {% endif %}>{{ participant.Name
+							}}</span>
 						{% if participant.Role == "organizer" %}
-							<br/>
-							<span class="fst-italic">(organizer)</span>
+						<br />
+						<span class="fst-italic">(organizer)</span>
 						{% endif %}
 					</td>
 					<td>{{ participant.Affiliation }}</td>
@@ -36,12 +37,14 @@ title: "ElectroFab 2023 - Participants"
 						{% assign papers = participant.Paper | split: " / " %}
 						{% assign ids = participant.ID | split: "," %}
 						{% for paper in papers %}
-							<a class="text-underline text-info" href="/papers.html#paper-{{- ids[forloop.index0] -}}">{{ paper }}</a>
+						<a class="text-underline text-info" href="/papers.html#paper-{{- ids[forloop.index0] -}}">{{
+							paper }}</a>
 						{% endfor %}
 					</td>
 					<td>
 						{% if participant.Video %}
-							<span class="text-info"><a class="text-info" href="{{ participant.Video | relative_url }}" target="_blank">video</a></span>
+						<span class="text-info"><a class="text-info" href="{{ participant.Video | relative_url }}"
+								target="_blank">video</a></span>
 						{% endif %}
 					</td>
 				</tr>

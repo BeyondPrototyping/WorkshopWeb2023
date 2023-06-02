@@ -12,5 +12,5 @@ One immediate application is in the development of reprogrammable, shape-changin
 
 So far, our work in this area has revolved around integrating pneumatic structures (i.e. electrostatic valves) into multilayer PCBs, which has allowed us to create dynamic tactile patterns and simple shape-changing robots. In order to accelerate this experimentation (and allow the wider community to participate), software tools will need to be developed that capture certain abstractions, and render them as design files that can be readily manufactured."
 
-pdf: electrofab23-final60.pdf
+pdf: beyond_prototyping_23-final60.pdf
 ---
