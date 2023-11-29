@@ -37,7 +37,7 @@ title: "Beyond Prototyping 2023 - Participants"
 						{% assign papers = participant.Paper | split: " / " %}
 						{% assign ids = participant.ID | split: "," %}
 						{% for paper in papers %}
-						<a class="text-underline text-info" href="/papers.html#paper-{{- ids[forloop.index0] -}}">{{
+						<a class="text-underline text-info" href="papers.html#paper-{{- ids[forloop.index0] -}}">{{
 							paper }}</a>
 						{% endfor %}
 					</td>
