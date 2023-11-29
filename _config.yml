@@ -1,4 +1,4 @@
-url: 'https://beyondprototyping.github.io' #'https://beyond.prototyping.id' # the base hostname & protocol for your site, e.g. http://example.com
+url: 'https://beyondprototyping.github.io/WorkshopWeb2023' #'https://beyond.prototyping.id' # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: 'WorkshopWeb2023' # the subpath of your site, e.g. /blog
 title: 'Beyond Prototyping' # the name of your site, e.g. ACME Corp.
 repository: BeyondPrototyping/WorkshopWeb2023
