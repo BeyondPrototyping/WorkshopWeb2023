@@ -1,3 +1,3 @@
 # Beyond Prototyping Workshop 2023
 
-Web: [beyond.prototyping.id](https://beyond.prototyping.id)
+Web: [https://beyondprototyping.github.io/WorkshopWeb2023](https://beyondprototyping.github.io/WorkshopWeb2023)
